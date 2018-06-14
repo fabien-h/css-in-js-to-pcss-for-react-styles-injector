@@ -4,6 +4,14 @@
   "description": "Convert css in js code to nested pcss code for react styles injector.",
   "version": "0.0.1",
   "publisher": "fabien-h",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabien-h/css-in-js-to-pcss-for-react-styles-injector"
+  },
+  "homepage": "https://github.com/fabien-h/css-in-js-to-pcss-for-react-styles-injector#readme",
+  "bugs": "https://github.com/fabien-h/css-in-js-to-pcss-for-react-styles-injector/issues",
+  "author": "Fabien Huet <fabien.huet@gmail.com> @fabien_huet",
   "engines": {
     "vscode": "^1.24.0"
   },

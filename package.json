@@ -2,7 +2,7 @@
   "name": "css-in-js-to-pcss-for-react-styles-injector",
   "displayName": "CSS-in-JS-to-PCSS",
   "description": "Convert css in js code to nested pcss code for react styles injector.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "fabien-h",
   "license": "MIT",
   "repository": {

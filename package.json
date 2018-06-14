@@ -1,0 +1,51 @@
+{
+  "name": "css-in-js-to-pcss-for-react-styles-injector",
+  "displayName": "CSS-in-JS-to-PCSS",
+  "description": "Convert css in js code to nested pcss code for react styles injector.",
+  "version": "0.0.1",
+  "publisher": "fabien-h",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:formatCSS"
+  ],
+  "main": "./out/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "formatCSS",
+        "title": "CSS-IN-JS-TO-PCSS"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^7.0.43",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-import": "^11.1.0",
+    "postcss-js": "^1.0.1",
+    "postcss-media-minmax": "^3.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-normalize-whitespace": "^4.0.0-rc.2",
+    "postcss-preset-env": "^5.1.0",
+    "postcss-simple-vars": "^4.1.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6"
+  },
+  "dependencies": {
+    "postcss": "^6.0.22"
+  }
+}

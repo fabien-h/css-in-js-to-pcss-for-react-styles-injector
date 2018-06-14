@@ -32,6 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
     text = text.replace(/Colors\.(.+),/g, '"$&",');
     text = text.replace(/Colors\./g, '$');
     text = text.replace(/,",/g, '",');
+    text = text.replace(/;/g, '');
 
     let obj = '';
     try {

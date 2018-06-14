@@ -40,20 +40,14 @@
   "devDependencies": {
     "@types/mocha": "^2.2.42",
     "@types/node": "^7.0.43",
-    "postcss-custom-properties": "^7.0.0",
-    "postcss-flexbugs-fixes": "^3.3.1",
-    "postcss-import": "^11.1.0",
-    "postcss-js": "^1.0.1",
-    "postcss-media-minmax": "^3.0.0",
-    "postcss-nested": "^3.0.0",
-    "postcss-normalize-whitespace": "^4.0.0-rc.2",
-    "postcss-preset-env": "^5.1.0",
-    "postcss-simple-vars": "^4.1.0",
     "tslint": "^5.8.0",
     "typescript": "^2.6.1",
     "vscode": "^1.1.6"
   },
   "dependencies": {
+    "postcss-js": "^1.0.1",
+    "postcss-normalize-whitespace": "^4.0.0-rc.2",
+    "postcss-preset-env": "^5.1.0",
     "postcss": "^6.0.22"
   }
 }
